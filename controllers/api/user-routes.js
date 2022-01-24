@@ -112,7 +112,7 @@ router.post('/logout', withAuth, (req, res) => {
 })
 
 // Update Users 
-// expects {username: 'Lernantino', email: 'lernantino@gmail.com', password: 'password1234'}
+// expects {username: 'Lernantino', password: 'password1234'}
 router.put('/:id', withAuth, (req, res) => {
     User.update(req.body, {
         individualHooks: true,
