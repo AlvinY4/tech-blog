@@ -22,7 +22,7 @@ https://powerful-hollows-34476.herokuapp.com/
 
 ## Screenshot
 
-
+<img src=https://github.com/AlvinY4/tech-blog/blob/main/extras/screenshot/Screen%20Shot%202022-01-23%20at%2010.47.52%20PM.png> 
 
 ## Installation 
 
