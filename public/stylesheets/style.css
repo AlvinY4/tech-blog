@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccdad1;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #201110;
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+h1,h2,h3,h5,h6 {
+    font-weight: 700;
+    margin: 0;
+    color: #201110;
+    line-height: 1.25;
+}
+
+.link-color {
+    color: #788585;
+    padding: 10px;
+    margin: 10px
+}
+
+main {
+    margin: 20px auto;
+    width: 94%;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 6px 5px;
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    border-radius: .3rem;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #a1a0a1;
+    transform: translate(-1px, -1px);
+}
+
+.btn:hover {
+    color: #ccdad1;
+    background-color: #788585;
+    transform: translate(0, 0);
+    box-shadow: 2px 2px #201110;
+}
+
+.btn-inline {
+    display: inline;
+}
+
+.btn-back {
+    border-radius: .3rem;
+    color:#ccdad1;
+    border: none;
+    outline: none;
+    background-color: #a1a0a1;
+    box-shadow: 3px 3px #dce9d5;
+    transform: translate(-1px, -1px);
+    display: inline-block;
+    width: auto;
+    margin-top: 20px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.btn-back:hover {
+    color: #ccdad1;
+    background-color: #788585;
+    transform: translate(0, 0);
+    box-shadow: 2px 2px#201110 ;
+}
+
+.hero {
+    padding: 3% 4%;
+    background-color: #201110;
+    color: #ccdad1;
+}
+
+.hero p {
+    max-width: 75%;
+}
+
+.app-title {
+    font-size: 3rem;
+    background-color: #ccdad1;
+    color: #201110;
+    padding: 0 10px;
+    display: inline-block;
+    border-radius: .3rem;
+    box-shadow: 6px 5px #a1a0a1;
+}
+
+.list-group {
+    padding: 0;
+    list-style: none;
+}
+
+.list-item {
+    margin-bottom: 10px;
+    padding: 1.5%;
+    border-radius: .3rem;
+    background-color: #a1a0a1;
+    color: #ccdad1;
+    text-decoration: none;
+}
+
+.list-item:hover {
+    background-color: #201110;
+}
+
+.status-icon {
+    padding: 2px 5px;
+    margin: 0 5px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: .3rem;
+}
+
+.icon-danger {
+    color: rgb(255, 70, 70);
+}
+
+.icon-success {
+    color: rgb(29, 153, 255);
+}
+
+.card {
+    margin: 0 0 20px 0;
+    border: 2px solid #201110;
+    border-radius: .3rem;
+}
+
+.card-header {
+    color: #ccdad1;
+    background-color: #201110;
+    padding: 1%;
+    border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+}
+
+.card-body {
+    padding: 1%;
+}
+
+h4 {
+    font-weight: 700;
+    margin: 0;
+    color: #a1a0a1;
+    line-height: 1.25;
+}
+
+.link {
+    color: #a1a0a1;
+}
+
+.login-link {
+    color: #201110;
+}
+
+.nav {
+    padding: 10px;
+    line-height: 1.25;
+    float: top;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-size: 110%;
+}
+
+.form-label,
+.form-input,
+.form-textarea {
+    display: block;
+}
+
+.form-label {
+    font-size: 1.1rem;
+    margin: 0 0 0 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 3%;
+    margin: 5px 0;
+    font-size: 1.2rem;
+    border: 2px solid #a1a0a1;
+    border-radius: .3rem;
+}
+
+.min-100-vh {
+    min-height: 100vh;
+}
+
+.min-100-vw {
+    min-width: 100vw;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.justify-flex-start {
+    justify-content: flex-start
+}
+
+.justify-flex-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-stretch {
+    align-items: stretch;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.col-auto {
+    flex-grow: 1;
+}

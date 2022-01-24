@@ -1,7 +1,7 @@
 {
   "name": "tech-blog",
   "version": "1.0.0",
-  "description": "(MVC) Tech Blog",
+  "description": "Tech Blog",
   "main": "server.js",
   "scripts": {
     "test": "jest",
